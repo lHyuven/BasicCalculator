@@ -23,30 +23,50 @@ const retFormula = () => {
 }
 
 document.getElementById('opAdd').addEventListener("click", () => {
-    op = ' + ';
-    status = 2;
-    retFormula()
+    if(status != 3){
+        op = ' + ';
+        status = 2;
+        retFormula()
+    }else{
+        retFormula();
+    }
 });
 document.getElementById('opSub').addEventListener("click", () => {
-    op = ' - ';
-    status = 2;
-    retFormula()
+    if(status != 3){
+        op = ' - ';
+        status = 2;
+        retFormula()
+    }else{
+        retFormula();
+    }
 });
 
 document.getElementById('opMul').addEventListener("click", () => {
-    op = ' * ';
-    status = 2;
-    retFormula()
+    if(status != 3){
+        op = ' * ';
+        status = 2;
+        retFormula()
+    }else{
+        retFormula();
+    }
 });
 document.getElementById('opDiv').addEventListener("click", () => {
-    op = ' / ';
-    status = 2;
-    retFormula()
+    if(status != 3){
+        op = ' / ';
+        status = 2;
+        retFormula()
+    }else{
+        retFormula();
+    }
 });
 document.getElementById('opMod').addEventListener("click", () => {
-    op = ' % ';
-    status = 2;
-    retFormula()
+    if(status != 3){
+        op = ' % ';
+        status = 2;
+        retFormula();
+    }else{
+        retFormula();
+    }
 });
 
 
