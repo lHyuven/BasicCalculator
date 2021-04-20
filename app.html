@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Basic Calculator</title>
+<meta name = 'viewport' content='width=device-width,initialscale=1'>
+<meta charset="utf-8">
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!---->
+<link rel = 'stylesheet' href = './src/style.css'>
+</head>
+<body>
+    <!--Main component-->
+    <div class = 'container'>
+        <h3>Basic Calculator</h3>
+        <input id = 'showAnswer'  type = 'text' disabled ><br>
+        <p id = 'showNotice'></p>
+        <table>
+            <tr>
+                <td><button id = 'no1' class = 'btn btn-secondary'>1</button></td>
+                <td><button id = 'no2'class = 'btn btn-secondary'>2</button></td>
+                <td><button id = 'no3'class = 'btn btn-secondary'>3</button></td>
+                <td><button id = 'opAdd'class = 'btn btn-secondary'>+</button></td>
+            </tr>
+            <tr>
+                <td><button id = 'no4'class = 'btn btn-secondary'>4</button></td>
+                <td><button id = 'no5'class = 'btn btn-secondary'>5</button></td>
+                <td><button id = 'no6'class = 'btn btn-secondary'>6</button></td>
+                <td><button id = 'opSub'class = 'btn btn-secondary'>-</button></td>
+            </tr>
+            <tr>
+                <td><button id = 'no7'class = 'btn btn-secondary'>7</button></td>
+                <td><button id = 'no8'class = 'btn btn-secondary'>8</button></td>
+                <td><button id = 'no9'class = 'btn btn-secondary'>9</button></td>
+                <td><button id = 'opMul'class = 'btn btn-secondary'>*</button></td>
+            </tr>
+            <tr>
+                <td><button id = 'no0'class = 'btn btn-secondary'>0</button></td>
+                <td><button id = 'opMod'class = 'btn btn-secondary'>%</button></td>
+                <td><button id = 'opClr'class = 'btn btn-secondary'>CLR</button></td>
+                <td><button id = 'opDiv'class = 'btn btn-secondary'>/</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan = '2'><button class = 'btn btn-primary' id = 'ans'>=</button></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <!--Main component-->
+<script src = './src/script.js'></script>
+</body>
+</html>

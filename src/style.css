@@ -1,0 +1,31 @@
+.container{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+input[type='text']{
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+}
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+table{
+    table-layout: fixed;
+    margin-left: 35%;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 10px
+}
+#ans{
+    width: 70px;
+    font-size: 30px;
+}
+#showNotice{
+    color: skyblue;
+    font-weight: bold;
+}
